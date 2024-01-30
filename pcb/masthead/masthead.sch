@@ -1,0 +1,299 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR01
+U 1 1 65AA0461
+P 7500 4700
+F 0 "#PWR01" H 7500 4450 50  0001 C CNN
+F 1 "GND" V 7500 4500 50  0000 C CNN
+F 2 "" H 7500 4700 50  0001 C CNN
+F 3 "" H 7500 4700 50  0001 C CNN
+	1    7500 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 65ACE77F
+P 3300 3150
+F 0 "#FLG02" H 3300 3225 50  0001 C CNN
+F 1 "PWR_FLAG" V 3300 3277 50  0001 L CNN
+F 2 "" H 3300 3150 50  0001 C CNN
+F 3 "~" H 3300 3150 50  0001 C CNN
+	1    3300 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 3150 3300 3150
+$Comp
+L power:+3V3 #PWR02
+U 1 1 65B3555F
+P 7500 2900
+F 0 "#PWR02" H 7500 2750 50  0001 C CNN
+F 1 "+3V3" V 7515 3028 50  0000 L CNN
+F 2 "" H 7500 2900 50  0001 C CNN
+F 3 "" H 7500 2900 50  0001 C CNN
+	1    7500 2900
+	0    1    1    0   
+$EndComp
+Connection ~ 3300 3150
+Wire Wire Line
+	3200 2750 3300 2750
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 65AEED8E
+P 3300 2750
+F 0 "#FLG01" H 3300 2825 50  0001 C CNN
+F 1 "PWR_FLAG" V 3300 2877 50  0001 L CNN
+F 2 "" H 3300 2750 50  0001 C CNN
+F 3 "~" H 3300 2750 50  0001 C CNN
+	1    3300 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 65B3CE90
+P 5050 3200
+F 0 "R1" H 5120 3246 50  0000 L CNN
+F 1 "4K8" H 5120 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4980 3200 50  0001 C CNN
+F 3 "~" H 5050 3200 50  0001 C CNN
+	1    5050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pdjr:WeMos_mini U2
+U 1 1 65B6AA7D
+P 5900 3750
+F 0 "U2" H 5900 4387 60  0000 C CNN
+F 1 "WeMos_mini" H 5900 4281 60  0000 C CNN
+F 2 "PDJR_Module:Wemos_D1_mini" H 6450 3050 60  0001 C CNN
+F 3 "" H 6450 3050 60  0000 C CNN
+	1    5900 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 65B746A2
+P 6800 3200
+F 0 "R2" H 6870 3246 50  0000 L CNN
+F 1 "4K8" H 6870 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6730 3200 50  0001 C CNN
+F 3 "~" H 6800 3200 50  0001 C CNN
+	1    6800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 65B74C88
+P 7100 3200
+F 0 "R3" H 7170 3246 50  0000 L CNN
+F 1 "4K8" H 7170 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7030 3200 50  0001 C CNN
+F 3 "~" H 7100 3200 50  0001 C CNN
+	1    7100 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3900 7100 3350
+Wire Wire Line
+	6400 3500 6500 3500
+NoConn ~ 5400 3600
+NoConn ~ 5400 4000
+NoConn ~ 5400 3900
+Wire Wire Line
+	6500 3500 6500 4700
+NoConn ~ 5400 3500
+$Comp
+L Regulator_Switching:TSR_1-2450 U1
+U 1 1 65B543AD
+P 3900 2850
+F 0 "U1" H 3900 3217 50  0000 C CNN
+F 1 "TSR_1-2450" H 3900 3126 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT" H 3900 2700 50  0001 L CIN
+F 3 "http://www.tracopower.com/products/tsr1.pdf" H 3900 2850 50  0001 C CNN
+	1    3900 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2750 3500 2750
+Connection ~ 3300 2750
+Wire Wire Line
+	4300 2750 4400 2750
+Wire Wire Line
+	3900 3050 3900 3150
+Wire Wire Line
+	3900 3150 4400 3150
+Connection ~ 3900 3150
+$Comp
+L Device:CP C1
+U 1 1 65B620B9
+P 4400 2950
+F 0 "C1" H 4518 2996 50  0000 L CNN
+F 1 "100uF" H 4518 2905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 4438 2800 50  0001 C CNN
+F 3 "~" H 4400 2950 50  0001 C CNN
+	1    4400 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2750 6500 2750
+Wire Wire Line
+	4400 2800 4400 2750
+Wire Wire Line
+	4400 3100 4400 3150
+Connection ~ 4400 3150
+Wire Wire Line
+	4400 3150 4600 3150
+Wire Wire Line
+	6800 3350 6800 3800
+Wire Wire Line
+	6400 3400 6500 3400
+Wire Wire Line
+	6500 3400 6500 2750
+Wire Wire Line
+	6800 3050 6800 2900
+Wire Wire Line
+	7100 3050 7100 2900
+NoConn ~ 5400 4100
+Wire Wire Line
+	5400 3400 5300 3400
+Connection ~ 6800 2900
+Wire Wire Line
+	6800 2900 7100 2900
+$Comp
+L pdjr:AM2320 RH1
+U 1 1 65B8C1AB
+P 7900 3750
+F 0 "RH1" H 8160 3803 60  0000 L CNN
+F 1 "AM2320" H 8160 3697 60  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" V 7525 3775 60  0001 C CNN
+F 3 "" V 7525 3775 60  0000 C CNN
+	1    7900 3750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6400 4000
+NoConn ~ 6400 4100
+Wire Wire Line
+	7100 3900 7500 3900
+Wire Wire Line
+	6800 3800 7500 3800
+Wire Wire Line
+	7400 3700 7500 3700
+Wire Wire Line
+	7400 3700 7400 4700
+Wire Wire Line
+	7100 2900 7400 2900
+Wire Wire Line
+	7500 3600 7400 3600
+Wire Wire Line
+	7400 3600 7400 2900
+Wire Wire Line
+	7400 2900 7500 2900
+$Comp
+L Switch:SW_Push SW1
+U 1 1 65BAA916
+P 5050 4350
+F 0 "SW1" V 5004 4498 50  0000 L CNN
+F 1 "TILT" V 5095 4498 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5050 4550 50  0001 C CNN
+F 3 "~" H 5050 4550 50  0001 C CNN
+	1    5050 4350
+	0    1    1    0   
+$EndComp
+Connection ~ 6800 3800
+Connection ~ 7100 3900
+Connection ~ 7100 2900
+$Comp
+L Connector:Screw_Terminal_01x01 J1
+U 1 1 65B6D609
+P 3000 2750
+F 0 "J1" H 3000 2650 50  0000 C CNN
+F 1 "Screw_Terminal_01x01" H 2918 2616 50  0001 C CNN
+F 2 "PDJR_ScrewTerminal:M4_OPEN_TERMINAL" H 3000 2750 50  0001 C CNN
+F 3 "~" H 3000 2750 50  0001 C CNN
+	1    3000 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J2
+U 1 1 65B6FD08
+P 3000 3150
+F 0 "J2" H 3000 3050 50  0000 C CNN
+F 1 "Screw_Terminal_01x01" H 2918 3016 50  0001 C CNN
+F 2 "PDJR_ScrewTerminal:M4_OPEN_TERMINAL" H 3000 3150 50  0001 C CNN
+F 3 "~" H 3000 3150 50  0001 C CNN
+	1    3000 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3300 3150 3900 3150
+Wire Wire Line
+	4600 3150 4600 4700
+Connection ~ 4400 2750
+NoConn ~ 6400 3600
+Connection ~ 7400 2900
+Wire Wire Line
+	5300 2900 5300 3400
+Wire Wire Line
+	7500 4700 7400 4700
+Connection ~ 7400 4700
+Connection ~ 6500 4700
+NoConn ~ 5400 3700
+Wire Wire Line
+	4600 4700 5050 4700
+Wire Wire Line
+	5300 2900 5050 2900
+Wire Wire Line
+	5050 2900 5050 3050
+Connection ~ 5300 2900
+Wire Wire Line
+	5050 3350 5050 3800
+Wire Wire Line
+	5050 4550 5050 4700
+Connection ~ 5050 4700
+Wire Wire Line
+	5400 3800 5050 3800
+Connection ~ 5050 3800
+Wire Wire Line
+	5050 3800 5050 4150
+NoConn ~ 6400 3700
+Text Notes 7000 6650 0    50   ~ 0
+Multisensor for monitoring temperature, pressure and mast state (up/down).
+Wire Wire Line
+	6400 3800 6800 3800
+Wire Wire Line
+	6400 3900 7100 3900
+Wire Wire Line
+	6500 4700 7400 4700
+Wire Wire Line
+	5300 2900 6800 2900
+Wire Wire Line
+	5050 4700 6500 4700
+$Comp
+L power:+5V #PWR?
+U 1 1 65B82C7A
+P 7500 2750
+F 0 "#PWR?" H 7500 2600 50  0001 C CNN
+F 1 "+5V" V 7515 2878 50  0000 L CNN
+F 2 "" H 7500 2750 50  0001 C CNN
+F 3 "" H 7500 2750 50  0001 C CNN
+	1    7500 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 2750 7500 2750
+Connection ~ 6500 2750
+$EndSCHEMATC

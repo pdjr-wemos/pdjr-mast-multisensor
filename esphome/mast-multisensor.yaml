@@ -1,0 +1,41 @@
+esphome:
+  name: mast-multisensor
+
+esp8266:
+  board: d1_mini
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
+  password: ""
+
+#i2c:
+#  sda: 4
+#  scl: 5
+
+sensor:
+#  - platform: am2320
+#    temperature:
+#      name: "Mast Multisensor Temperature"
+#    humidity:
+#      name: "Mast Multisensor Humidity"
+#    update_interval: 60s
+  - platform: adc
+    pin: VCC
+    name: "Mast Multisensor VCC voltage"
+
+wifi:
+  ssid: "beatrice"
+  password: "95344958"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Mast-Multisensor"
+    password: "EPMM7lyOVAKj"
+
+captive_portal:
+    

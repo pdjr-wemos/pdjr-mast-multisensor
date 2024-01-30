@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name PDJR_Converter_ACDC)(type Legacy)(uri /Users/preeve/Documents/GitHub/pdjr-kicad-libraries/pdjr/library/PDJR_Converter_ACDC.lib)(options "")(descr ""))
+  (lib (name PDJR_Module)(type Legacy)(uri /Users/preeve/Documents/GitHub/pdjr-kicad-libraries/pdjr/library/PDJR_Module.lib)(options "")(descr ""))
+  (lib (name pdjr)(type Legacy)(uri /Users/preeve/Documents/GitHub/pdjr-kicad-libraries/pdjr/library/pdjr.lib)(options "")(descr ""))
+  (lib (name d1-carrier-rescue)(type Legacy)(uri ${KIPRJMOD}/d1-carrier-rescue.lib)(options "")(descr ""))
+)

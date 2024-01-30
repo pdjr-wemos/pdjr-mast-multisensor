@@ -1,0 +1,13 @@
+(fp_lib_table
+  (lib (name PDJR_Module)(type KiCad)(uri /Users/preeve/Documents/GitHub/pdjr-kicad-libraries/pdjr/modules/PDJR_Module.pretty)(options "")(descr ""))
+  (lib (name wemos_d1_mini)(type KiCad)(uri /Users/preeve/Documents/GitHub/d1_mini_kicad/library/wemos_d1_mini.pretty)(options "")(descr ""))
+  (lib (name Resistor_SMD)(type KiCad)(uri /Users/preeve/Documents/GitHub/pdjr-kicad-libraries/kicad/modules/Resistor_SMD.pretty)(options "")(descr ""))
+  (lib (name Connector_Molex)(type KiCad)(uri /Users/preeve/Documents/GitHub/pdjr-kicad-libraries/kicad/modules/Connector_Molex.pretty)(options "")(descr ""))
+  (lib (name Connector_JST)(type KiCad)(uri /Users/preeve/Documents/GitHub/pdjr-kicad-libraries/kicad/modules/Connector_JST.pretty)(options "")(descr ""))
+  (lib (name Converter_DCDC)(type KiCad)(uri /Users/preeve/Documents/GitHub/pdjr-kicad-libraries/kicad/modules/Converter_DCDC.pretty)(options "")(descr ""))
+  (lib (name TerminalBlock)(type KiCad)(uri /Users/preeve/Documents/GitHub/pdjr-kicad-libraries/kicad/modules/TerminalBlock.pretty)(options "")(descr ""))
+  (lib (name masthead)(type KiCad)(uri /Users/preeve/Documents/GitHub/pdjr-kicad-libraries/pdjr/modules/PDJR_ScrewTerminal/masthead.pretty)(options "")(descr ""))
+  (lib (name PDJR_ScrewTerminal)(type KiCad)(uri /Users/preeve/Documents/GitHub/pdjr-kicad-libraries/pdjr/modules/PDJR_ScrewTerminal.pretty)(options "")(descr ""))
+  (lib (name M4_OPEN_TERMINAL)(type KiCad)(uri /Users/preeve/Documents/GitHub/pdjr-kicad-libraries/pdjr/modules/PDJR_ScrewTerminal.pretty/M4_OPEN_TERMINAL.pretty)(options "")(descr ""))
+  (lib (name Sensor_Motion)(type KiCad)(uri /Users/preeve/Documents/GitHub/pdjr-kicad-libraries/kicad/modules/Sensor_Motion.pretty)(options "")(descr ""))
+)
