@@ -28,10 +28,10 @@ platform.
 <table>
   <tr>
     <td>
-      ![Multisensor enclosure](./resources/enclosure.png)      
+      <img src="resources/enclosure.png"/>      
     </td>
     <td>
-      ![Multisensor schematic](./resources/schematic.png)
+      <a href="resources/schematic.pdf"><img src="resources/schematic.png"/></a>
     </td>
   </tr>
 </table>
