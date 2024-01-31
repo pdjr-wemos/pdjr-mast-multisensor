@@ -15,5 +15,8 @@ The PCB incorporates the following active components.
 * BMP581 temperature + barometric pressure sensor
 * SW-520D tilt sensor
 
-The multisensor is configured and provisioned using ESPHome and makes
-wireless connection to the ships's Wifi network.
+The multisensor is configured and provisioned using ESPHome, connects
+to the ships's Wifi network and integrates with the vessel's Home
+Assistant platform.
+
+![Multisensor enclosure](resources/enclosure.svg)
