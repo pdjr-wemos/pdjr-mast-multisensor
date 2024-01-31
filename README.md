@@ -25,4 +25,13 @@ connects to the ships's Wifi network and integrates with the vessel's
 [Home Assistant](https://www.home-assistant.io/)
 platform.
 
-![Multisensor enclosure](./resources/enclosure.png)
+<table>
+  <tr>
+    <td>
+      ![Multisensor enclosure](./resources/enclosure.png)      
+    </td>
+    <td>
+      ![Multisensor schematic](./resources/schematic.png)
+    </td>
+  </tr>
+</table>
