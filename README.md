@@ -2,7 +2,7 @@
 
 This project implements an ESP8266 multisensor which mounts at the top
 of Beatrice's mast and reports temperature, humidity, barometric
-pressure and whether or not the mast is raised or lowered.
+pressure and mast state (raised/lowered).
 
 The multisensor PCB is housed in a 3D printed enclosure which sits
 between the mast top plate and the DHR35 Anchor Light.
