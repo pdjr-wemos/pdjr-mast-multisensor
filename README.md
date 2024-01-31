@@ -31,7 +31,7 @@ platform.
       <img src="resources/enclosure.png"/>      
     </td>
     <td>
-      <img src="resources/schematic.png"/>
+      <a href="resources/schematic.pdf"><img src="resources/schematic.png"/></a>
     </td>
   </tr>
 </table>
