@@ -8,7 +8,8 @@ mast and reports temperature, humidity, barometric pressure and mast
 state (raised/lowered).
 
 The multisensor PCB is housed in a 3D printed enclosure which sits
-between the mast top plate and the DHR35 Anchor Light.
+between the mast top plate and the
+[DHR35 Anchor Light](https://www.dhr.nl/dhr-marine/products/navigation-lights/dhr35).
 The housing adds about 2cm to the mast height.
 
 The PCB incorporates the following active components.
