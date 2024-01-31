@@ -19,4 +19,4 @@ The multisensor is configured and provisioned using ESPHome, connects
 to the ships's Wifi network and integrates with the vessel's Home
 Assistant platform.
 
-![Multisensor enclosure](./resources/enclosure.svg)
+![Multisensor enclosure](./resources/enclosure.png)
