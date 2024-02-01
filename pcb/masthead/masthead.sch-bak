@@ -10,8 +10,8 @@ Rev "2"
 Comp "PDJR"
 Comment1 ""
 Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment3 "Reports temperature, humidity, barometric pressure and mast state."
+Comment4 "https://github.com/pdjr-wemos/pdjr-mast-multisensor"
 $EndDescr
 $Comp
 L power:GND #PWR03
@@ -257,8 +257,6 @@ Connection ~ 4150 4250
 Wire Wire Line
 	4150 4250 4150 4600
 NoConn ~ 5500 4150
-Text Notes 7000 6650 0    50   ~ 0
-Multisensor for monitoring temperature, pressure and mast state (up/down).
 Wire Wire Line
 	5500 4250 5900 4250
 Wire Wire Line
@@ -357,11 +355,11 @@ Wire Wire Line
 	9050 3250 8950 3250
 Connection ~ 8050 3150
 $Comp
-L PDJR_Module:BMP580 U?
-U 1 1 65BAD4A3
+L PDJR_Module:BMP581 U?
+U 1 1 65BBD5AE
 P 8600 3400
 F 0 "U?" H 8600 3915 50  0000 C CNN
-F 1 "BMP580" H 8600 3824 50  0000 C CNN
+F 1 "BMP581" H 8600 3824 50  0000 C CNN
 F 2 "" H 8250 3650 50  0001 C CNN
 F 3 "" H 8250 3650 50  0001 C CNN
 	1    8600 3400
