@@ -28,7 +28,7 @@ platform.
 <table>
   <tr>
     <td>
-      <a href="resources/mast-multisensor-enclosure.gcode"><img src="resources/enclosure.png"/></a>     
+      <a href="resources/mast-multisensor-enclosure.stl"><img src="resources/enclosure.png"/></a>     
     </td>
     <td>
       <a href="resources/mast-multisensor-schematic.pdf"><img src="resources/pcb.png"/></a>
