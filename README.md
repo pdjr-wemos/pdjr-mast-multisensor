@@ -21,7 +21,7 @@ The PCB incorporates the following active components.
 
 The multisensor is configured and provisioned using
 [ESPHome](https://esphome.io/index.html),
-connects to the ships's Wifi network and integrates with the vessel's
+connects to the ships's WiFi network and integrates with the vessel's
 [Home Assistant](https://www.home-assistant.io/)
 platform.
 
