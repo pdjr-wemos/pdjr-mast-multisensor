@@ -31,7 +31,7 @@ platform.
       <img src="resources/enclosure.png"/>      
     </td>
     <td>
-      <a href="resources/schematic.pdf"><img src="resources/pcb.png"/></a>
+      <a href="resources/mast-multisensor-schematic.pdf"><img src="resources/pcb.png"/></a>
     </td>
   </tr>
 </table>
