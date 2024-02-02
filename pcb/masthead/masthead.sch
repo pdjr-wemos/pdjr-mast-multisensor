@@ -9,7 +9,7 @@ Date "2024-01-31"
 Rev "2"
 Comp "PDJR"
 Comment1 ""
-Comment2 ""
+Comment2 "6.5 to 36 VDC input."
 Comment3 "Reports temperature, humidity, barometric pressure and mast state."
 Comment4 "https://github.com/pdjr-wemos/pdjr-mast-multisensor"
 $EndDescr
@@ -25,19 +25,6 @@ F 3 "" H 9300 5150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG02
-U 1 1 65ACE77F
-P 2400 3600
-F 0 "#FLG02" H 2400 3675 50  0001 C CNN
-F 1 "PWR_FLAG" V 2400 3727 50  0001 L CNN
-F 2 "" H 2400 3600 50  0001 C CNN
-F 3 "~" H 2400 3600 50  0001 C CNN
-	1    2400 3600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2300 3600 2400 3600
-$Comp
 L power:+3V3 #PWR02
 U 1 1 65B3555F
 P 6600 3350
@@ -48,7 +35,6 @@ F 3 "" H 6600 3350 50  0001 C CNN
 	1    6600 3350
 	0    1    1    0   
 $EndComp
-Connection ~ 2400 3600
 Wire Wire Line
 	2300 3200 2400 3200
 $Comp
@@ -229,8 +215,6 @@ F 3 "~" H 2100 3600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2400 3600 3000 3600
-Wire Wire Line
 	3700 3600 3700 5150
 Connection ~ 3500 3200
 NoConn ~ 5500 4050
@@ -365,4 +349,6 @@ F 3 "" H 8250 3650 50  0001 C CNN
 	1    8600 3400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2300 3600 3000 3600
 $EndSCHEMATC
