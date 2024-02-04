@@ -4,7 +4,7 @@ This project implements an
 [ESP8266](https://www.espressif.com/en/products/socs/esp8266)-based
 multisensor which mounts at the top of
 [Beatrice](https://www.pdjr.eu/beatrice/wp-content/uploads/2021/01/beatrice.jpg)'s
-mast and reports temperature, humidity, barometric pressure and mast
+mast and reports temperature, humidity, barometric pressure, lux and mast
 state (raised/lowered).
 
 The multisensor PCB is housed in a 3D printed enclosure which sits
