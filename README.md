@@ -4,7 +4,7 @@ This project implements an
 [ESP8266](https://www.espressif.com/en/products/socs/esp8266)-based
 multisensor which mounts at the top of
 [Beatrice](https://www.pdjr.eu/beatrice/wp-content/uploads/2021/01/beatrice.jpg)'s
-mast and reports temperature, humidity, barometric pressure and mast
+mast and reports temperature, humidity, barometric pressure, lux and mast
 state (raised/lowered).
 
 The multisensor PCB is housed in a 3D printed enclosure which sits
@@ -18,6 +18,7 @@ The PCB incorporates the following active components.
 * [Adafruit AM2320](https://www.adafruit.com/product/3721) temperature + humidity sensor
 * [Bosch BMP581](https://www.bosch-sensortec.com/products/environmental-sensors/pressure-sensors/bmp581/) temperature + barometric pressure sensor
 * [SW-520D](https://www.switchelectronics.co.uk/products/sw520d-ball-tilt-vibration-switch) tilt sensor
+* [VEML7700](https://www.vishay.com/docs/84286/veml7700.pdf) lux sensor
 
 The multisensor is configured and provisioned using
 [ESPHome](https://esphome.io/index.html),
