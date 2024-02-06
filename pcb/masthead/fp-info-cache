@@ -1,4 +1,4 @@
-4669466959379234
+4676293935345267
 Capacitor_THT
 CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal
 CP, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=10*4.5mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/28325/021asm.pdf
@@ -17444,6 +17444,13 @@ THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket
 31
 31
 PDJR_Module
+VEML7700_SIDE
+
+
+0
+4
+4
+PDJR_Module
 WEMOS_D1
 
 
@@ -17464,6 +17471,27 @@ M4_OPEN_TERMINAL
 0
 4
 1
+PDJR_Sensor
+AM2320
+
+
+0
+4
+4
+PDJR_Sensor
+AM2320_HORIZ
+
+
+0
+4
+4
+PDJR_Sensor
+DIP-8_300_ELL
+
+
+0
+8
+8
 Resistor_SMD
 R_0201_0603Metric
 Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator

@@ -1,0 +1,13 @@
+Reference, Value, Footprint, Datasheet
+"R1","4K8","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","~"
+"U2","WeMos_mini","PDJR_Module:Wemos_D1_mini",""
+"R2","4K8","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","~"
+"R3","4K8","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder","~"
+"U1","TSR_1-2450","Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT","http://www.tracopower.com/products/tsr1.pdf"
+"C1","100uF","Capacitor_THT:CP_Radial_D6.3mm_P2.50mm","~"
+"RH1","AM2320","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical",""
+"SW1","TILT","Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical","~"
+"J1","Screw_Terminal_01x01","PDJR_ScrewTerminal:M4_OPEN_TERMINAL","~"
+"J2","Screw_Terminal_01x01","PDJR_ScrewTerminal:M4_OPEN_TERMINAL","~"
+"U3","BMP581","PDJR_Module:BMP581",""
+"J3","VEML7700","Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal","~"

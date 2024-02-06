@@ -10,4 +10,5 @@
   (lib (name PDJR_ScrewTerminal)(type KiCad)(uri /Users/preeve/Documents/GitHub/pdjr-kicad-libraries/pdjr/modules/PDJR_ScrewTerminal.pretty)(options "")(descr ""))
   (lib (name M4_OPEN_TERMINAL)(type KiCad)(uri /Users/preeve/Documents/GitHub/pdjr-kicad-libraries/pdjr/modules/PDJR_ScrewTerminal.pretty/M4_OPEN_TERMINAL.pretty)(options "")(descr ""))
   (lib (name Sensor_Motion)(type KiCad)(uri /Users/preeve/Documents/GitHub/pdjr-kicad-libraries/kicad/modules/Sensor_Motion.pretty)(options "")(descr ""))
+  (lib (name PDJR_Sensor)(type KiCad)(uri /Users/preeve/Documents/GitHub/pdjr-kicad-libraries/pdjr/modules/PDJR_Sensor.pretty)(options "")(descr ""))
 )
